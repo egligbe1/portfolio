@@ -2,6 +2,7 @@ import React from "react";
 import DataVisualization from "../../assets/data-visualization.png";
 import EDA from "../../assets/exploratory-analysis.png";
 import MachineLearning from "../../assets/machine-learning.png";
+import WebDevelopment from "../../assets/WebDevelopment.png";
 import "./skills.css";
 
 const Skills = () => {
@@ -52,6 +53,19 @@ const Skills = () => {
             <p>
               Ability to extract raw data from multiple sources, format and
               transform them into meaningful form for storage and analysis.
+            </p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img
+            src={WebDevelopment}
+            alt="Web Development"
+            className="skillBarImg"
+          />
+          <div className="skillBarText">
+            <h2>Web Development</h2>
+            <p>
+              Designing and building of websites.
             </p>
           </div>
         </div>
