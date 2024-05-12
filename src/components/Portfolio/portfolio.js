@@ -31,31 +31,31 @@ const projectsData = [
     image: Project4,
     link: "https://example.com/project4",
   },
-  {
-    title: "Project 5",
-    image: Project5,
-    link: "https://example.com/project5",
-  },
-  {
-    title: "Project 6",
-    image: Project6,
-    link: "https://example.com/project6",
-  },
-  {
-    title: "Project 7",
-    image: Project7,
-    link: "https://example.com/project7",
-  },
-  {
-    title: "Project 8",
-    image: Project8,
-    link: "https://example.com/project8",
-  },
-  {
-    title: "Project 9",
-    image: Project9,
-    link: "https://example.com/project9",
-  },
+  // {
+  //   title: "Project 5",
+  //   image: Project5,
+  //   link: "https://example.com/project5",
+  // },
+  // {
+  //   title: "Project 6",
+  //   image: Project6,
+  //   link: "https://example.com/project6",
+  // },
+  // {
+  //   title: "Project 7",
+  //   image: Project7,
+  //   link: "https://example.com/project7",
+  // },
+  // {
+  //   title: "Project 8",
+  //   image: Project8,
+  //   link: "https://example.com/project8",
+  // },
+  // {
+  //   title: "Project 9",
+  //   image: Project9,
+  //   link: "https://example.com/project9",
+  // },
 ];
 
 const Portfolio = () => {
