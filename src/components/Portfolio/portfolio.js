@@ -4,11 +4,11 @@ import Project1 from "../../assets/nypd-patch.png";
 import Project2 from "../../assets/bike.jpg";
 import Project3 from "../../assets/portfolio-3.png";
 import Project4 from "../../assets/portfolio-4.png";
-import Project5 from "../../assets/portfolio-5.png";
-import Project6 from "../../assets/portfolio-6.png";
-import Project7 from "../../assets/portfolio-6.png";
-import Project8 from "../../assets/portfolio-6.png";
-import Project9 from "../../assets/portfolio-6.png";
+// import Project5 from "../../assets/portfolio-5.png";
+// import Project6 from "../../assets/portfolio-6.png";
+// import Project7 from "../../assets/portfolio-6.png";
+// import Project8 from "../../assets/portfolio-6.png";
+// import Project9 from "../../assets/portfolio-6.png";
 
 const projectsData = [
   {
