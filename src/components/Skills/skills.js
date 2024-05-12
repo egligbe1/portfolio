@@ -20,10 +20,10 @@ const Skills = () => {
         <div className="skillBar">
           <img src={EDA} alt="EDA" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Exploratory Data Analysis</h2>
+            <h2>Data Analysis</h2>
             <p>
-              Proficient in conducting thorough exploratory data analysis to
-              uncover insights and patterns within datasets.
+              I am able to conduct thorough exploratory analysis on data to
+              uncover meaningful insights and patterns within datasets.
             </p>
           </div>
         </div>
@@ -36,8 +36,8 @@ const Skills = () => {
           <div className="skillBarText">
             <h2>Data Visualization</h2>
             <p>
-              Ability to present complex findings in visually impactful
-              dashboards and reports.
+              I build impactful dashboards and reports to present complex
+              findings in data in a simplified way.
             </p>
           </div>
         </div>
@@ -48,10 +48,10 @@ const Skills = () => {
             className="skillBarImg"
           />
           <div className="skillBarText">
-            <h2>Machine Learning</h2>
+            <h2>Data Engineering</h2>
             <p>
-              Familiarity with machine learning concepts and algorithms for
-              tasks like classification and regression.
+              Ability to extract raw data from multiple sources, format and
+              transform them into meaningful form for storage and analysis.
             </p>
           </div>
         </div>

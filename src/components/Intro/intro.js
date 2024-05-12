@@ -27,9 +27,11 @@ const Intro = () => {
           <br />
         </span>
         <p className="introPara">
-          I am a skilled Data Analyst <br /> experienced in performing{" "}
-          <br /> compelling data analysis to derive
-          <br /> insights from data.
+          A Data Analyst <br /> who thrives on the challenge of{" "}
+          <br /> turning raw data into meaningful insights.
+          <br /> I'm passionate about using my skills to {" "}
+          <br /> help make data-driven decisions.
+
         </p>
         <a
           href="https://drive.google.com/file/d/1C0IGBAZiipXg1RDvfd2j69prMsZCSgYL/view?usp=sharing"
