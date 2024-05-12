@@ -5,7 +5,7 @@ import Walmart from "../../assets/walmart.png";
 import Microsoft from "../../assets/microsoft.png";
 import Adobe from "../../assets/adobe.png";
 import Facebook from "../../assets/facebook.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
+// import FacebookIcon from "../../assets/facebook-icon.png";
 import TwitterIcon from "../../assets/xx.webp";
 // import YoutubeIcon from "../../assets/youtube.png";
 import InstagramIcon from "../../assets/instagram.png";
