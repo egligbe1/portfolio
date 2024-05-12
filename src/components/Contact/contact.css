@@ -1,0 +1,140 @@
+#contactPage {
+  width: 100vw;
+  min-height: calc(100vh - 5rem);
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+#clients {
+  /* display: none; */
+  padding: 1rem;
+}
+
+.clientsTitle {
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+}
+.clientDesc {
+  font-weight: 300;
+  font-size: medium;
+  padding: 1rem;
+}
+
+.clientImages {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  max-width: 50rem;
+  flex-wrap: wrap;
+}
+.clientImg {
+  object-fit: cover;
+  width: 23%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 0.25rem;
+}
+
+#contactArea {
+  display: flex;
+  width: 75vw;
+  flex-direction: column;
+}
+.contactPageTitle {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+.contactPageDesc {
+  padding: 1rem;
+  font-weight: 300;
+  font-size: medium;
+}
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+}
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.9rem 3rem;
+  color: black;
+  margin: 1rem;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background: yellow;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.link {
+  object-fit: cover;
+  width: 2.8rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 585px) {
+  .contactPageTitle {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .clientsTitle {
+    font-size: 1.5rem;
+  }
+  .submitBtn {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .links {
+    margin: 1.5rem;
+  }
+  .link {
+    width: 2rem;
+  }
+}
+
+.status-message {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status-message.success {
+  background-color: #8ee89b; /* Green background for success */
+  color: #205c2e; /* Dark green text color */
+}
+
+.status-message.error {
+  background-color: #ff9c9c; /* Red background for error */
+  color: #a00; /* Dark red text color */
+}
