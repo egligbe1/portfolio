@@ -16,24 +16,23 @@ const Contact = () => {
   const form = useRef();
   const [formSubmissionStatus, setFormSubmissionStatus] = useState(null);
 
-  const sendEmail = (e) => {
+  async function sendEmail(e) {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_57nfthe", "template_24sgmzu", form.current, {
-        publicKey: "4-YwjfhSpJXtfimXC",
-      })
-      .then(
-        () => {
-          console.log("Message sent successfully!");
-          setFormSubmissionStatus("success");
-        },
-        (error) => {
-          console.log("Error sending message:", error.text);
-          setFormSubmissionStatus("error");
-        }
+    try {
+      const result = await emailjs.sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        { publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY }
       );
-  };
+      console.log("Message sent successfully!", result);
+      setFormSubmissionStatus("success");
+    } catch (error) {
+      console.error("Error sending message:", error.text);
+      setFormSubmissionStatus("error");
+    }
+  }
 
   return (
     <section id="contactPage">
@@ -81,7 +80,10 @@ const Contact = () => {
           </button>
           <div
             className="status-message"
-            style={{ display: formSubmissionStatus ? "block" : "none" }}
+            style={{
+              display: formSubmissionStatus ? "block" : "none",
+              color: formSubmissionStatus === "success" ? "green" : "inherit",
+            }}
           >
             {formSubmissionStatus === "success"
               ? "Message sent successfully!"
