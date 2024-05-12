@@ -91,17 +91,18 @@ const Contact = () => {
           {/* Link */}
           <div className="links">
             <a
-              href="https://github.com/egligbe1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={GitHubIcon} alt="GitHub" className="link" />
-            </a>
-            <a
               href="https://linkedin.com/in/emmanuelgligbe"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <a
+                href="https://github.com/egligbe1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={GitHubIcon} alt="GitHub" className="link" />
+              </a>
+
               <img src={LinkedInIcon} alt="LinkedIn" className="link" />
             </a>
             <a
