@@ -101,6 +101,24 @@
   cursor: pointer;
 }
 
+.status-message {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status-message.success {
+  background-color: #8ee89b; /* Green background for success */
+  color: #205c2e; /* Dark green text color */
+}
+
+.status-message.error {
+  background-color: #ff9c9c; /* Red background for error */
+  color: #a00; /* Dark red text color */
+}
+
 @media screen and (max-width: 585px) {
   .contactPageTitle {
     font-size: 1.5rem;
@@ -119,22 +137,9 @@
   .link {
     width: 2rem;
   }
-}
-
-.status-message {
-  display: none;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.status-message.success {
-  background-color: #8ee89b; /* Green background for success */
-  color: #205c2e; /* Dark green text color */
-}
-
-.status-message.error {
-  background-color: #ff9c9c; /* Red background for error */
-  color: #a00; /* Dark red text color */
+  .submitBtn {
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
 }
