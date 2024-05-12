@@ -24,12 +24,12 @@ const projectsData = [
   {
     title: "Project 3",
     image: Project3,
-    link: "https://example.com/project3",
+    link: "https://github.com/egligbe1/",
   },
   {
     title: "Project 4",
     image: Project4,
-    link: "https://example.com/project4",
+    link: "https://github.com/egligbe1/",
   },
   // {
   //   title: "Project 5",
@@ -72,12 +72,10 @@ const Portfolio = () => {
       <h2 className="projectsTitle">Projects</h2>
       <span className="projectsDesc">
         As a passionate and dedicated individual in Data Analytics, I've had the
-        opportunity to contribute to various projects that reflect my skills,
+        opportunity to contribute to a few projects that reflect my skills,
         creativity, and commitment. Each project has been a unique journey,
         allowing me to <span>learn and grow</span>. Below, you'll find a glimpse
-        of the diverse range of projects I've been involved in. Feel free to
-        explore and get a sense of my work and the enthusiasm I bring to every
-        endeavor.
+        of the diverse range of projects I've been involved in.
       </span>
 
       <div className="projectImages">

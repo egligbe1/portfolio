@@ -1,11 +1,10 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-// import Walmart from "../../assets/walmart.png";
-// import Microsoft from "../../assets/microsoft.png";
-// import Adobe from "../../assets/adobe.png";
-// import Facebook from "../../assets/facebook.png";
-
+import Walmart from "../../assets/walmart.png";
+import Microsoft from "../../assets/microsoft.png";
+import Adobe from "../../assets/adobe.png";
+import Facebook from "../../assets/facebook.png";
 // import FacebookIcon from "../../assets/facebook-icon.png";
 import TwitterIcon from "../../assets/xx.webp";
 // import YoutubeIcon from "../../assets/youtube.png";
@@ -38,7 +37,7 @@ const Contact = () => {
 
   return (
     <section id="contactPage">
-      {/* <div id="clients">
+      <div id="clients">
         <h2 className="clientsTitle">My Clients</h2>
         <p className="clientDesc">
           I have had the opportunity to work with a diverse group of companies,
@@ -50,7 +49,7 @@ const Contact = () => {
           <img src={Facebook} alt="facebook" className="clientImg" />
           <img src={Adobe} alt="adobe" className="clientImg" />
         </div>
-      </div> */}
+      </div>
 
       <div id="contactArea">
         <h2 className="contactPageTitle">Contact Me</h2>

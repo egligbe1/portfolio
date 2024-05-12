@@ -1,6 +1,6 @@
 #contactPage {
   width: 100vw;
-  min-height: calc(100vh - 5rem);
+  min-height: calc(70vh - 5rem);
   max-width: 70rem;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
   margin: 1rem auto;
 }
 #clients {
-  /* display: none; */
+  display: none;
   padding: 1rem;
 }
 
@@ -47,7 +47,7 @@
 }
 .contactPageTitle {
   text-align: center;
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
   font-size: 2rem;
 }
 .contactPageDesc {
@@ -62,7 +62,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 80rem;
+  /* max-width: 80rem; */
 }
 .name,
 .email,
