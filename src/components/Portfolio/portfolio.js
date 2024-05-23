@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: "NYPD Arrests Analysis",
     image: Project1,
-    link: "https://public.tableau.com/views/NYPDYearlyArresotAnalysis2006-2023/Dashboard1-Overview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+    link: "https://public.tableau.com/app/profile/emmanuel.gligbe/viz/NYPDYearlyArrestAnalysis2006-2023/Dashboard1-Overview",
   },
   {
     title: "Bike Demand Prediction | ML",
