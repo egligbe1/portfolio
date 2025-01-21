@@ -34,7 +34,7 @@ const Intro = () => {
 
         </p>
         <a
-          href="https://drive.google.com/file/d/1HigR46yr0bzqrcz-50BpojrEjp0TRxtJ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1iQWB0jWzPw5I2LKjyp80BOJ3qOLtdoTt/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
